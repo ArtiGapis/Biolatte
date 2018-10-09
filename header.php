@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <!-- Antraste -->        
-        <title>Sablonas</title>
+        <title>Biolatte</title>
 
             <!-- bootstrepo css -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -21,6 +21,33 @@
 <body>
     <div class="header">
         <div class="ghost">
-            <div class="cartheader"></div>
+            <div class="cartheader">
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#"><img src="image/cart.png"></a></li>
+                </ul>
+            </div>
+            <div class="menu-wraper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            <div class=""><img src="image/logo.png"></div>
+                        </div>
+                        <div class="col-10">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
