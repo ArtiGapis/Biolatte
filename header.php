@@ -16,7 +16,11 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
             <!-- mano css -->
-        <link rel="stylesheet" href="#">
+        <link rel="stylesheet" href="css/pagrindinis.css">
     </head>
-    <body>
-    <header></header>
+<body>
+    <div class="header">
+        <div class="ghost">
+            <div class="cartheader"></div>
+        </div>
+    </div>
