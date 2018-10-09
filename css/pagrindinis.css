@@ -5,6 +5,7 @@ body {
   font-family: 'Times New Roman', Times, serif; }
 
 /*sass*/
+/*header*/
 .header {
   background: url("../image/back.png");
   background-size: 100% 100%;
