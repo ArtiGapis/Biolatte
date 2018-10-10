@@ -6,34 +6,64 @@ body {
 
 /*sass*/
 /*header*/
-.header {
-  background: url("../image/back.png");
+.header .slideshow .mySlides {
+  background-size: 100%;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+  z-index: -1; }
+.header .slideshow .pirmas-slide {
+  background: url(../image/back.png) no-repeat;
+  background-size: 100%; }
+.header .slideshow .antras-slide {
+  background: url(../image/back2.png) no-repeat;
+  background-size: 100%; }
+.header .slideshow .trecias-slide {
+  background: url(../image/back3.png) no-repeat;
+  background-size: 100%; }
+.header .slideshow .ketvirtas-slide {
+  background: url(../image/back4.png) no-repeat;
+  background-size: 100%; }
+.header .slideshow .ghost {
+  background: rgba(255, 255, 255, 0.719);
   background-size: 100% 100%;
-  padding: 0 0 390px 0; }
-  .header .ghost {
-    background: rgba(255, 255, 255, 0.719);
+  padding: 0 0 15px 0; }
+  .header .slideshow .ghost .cartheader {
+    background: url("../image/topjuosta.png") no-repeat;
     background-size: 100% 100%;
-    padding: 0 0 90px 0; }
-    .header .ghost .cartheader {
-      background: url("../image/topjuosta.png") no-repeat;
-      background-size: 100% 100%;
-      width: 80%;
-      display: inline-block; }
-      .header .ghost .cartheader ul {
-        text-align: right;
-        margin-bottom: 10px; }
-      .header .ghost .cartheader li {
+    width: 80%;
+    display: inline-block; }
+    .header .slideshow .ghost .cartheader ul {
+      text-align: right;
+      margin-bottom: 10px; }
+      .header .slideshow .ghost .cartheader ul li {
         display: inline-block;
         padding: 5px; }
-        .header .ghost .cartheader li a {
+        .header .slideshow .ghost .cartheader ul li a {
           color: #429926;
           font-size: 16px; }
-        .header .ghost .cartheader li a:hover {
+        .header .slideshow .ghost .cartheader ul li a:hover {
           color: grey; }
-        .header .ghost .cartheader li img {
+        .header .slideshow .ghost .cartheader ul li img {
           padding: 5px 20px 5px 20px;
           border-left: 1px solid #a3ae9b; }
-    .header .ghost .menu-wraper li {
-      display: inline-block; }
+  .header .slideshow .ghost .menu-wraper {
+    padding: 50px 0 0 0; }
+    .header .slideshow .ghost .menu-wraper ul {
+      float: right; }
+      .header .slideshow .ghost .menu-wraper ul li {
+        display: inline-block; }
+        .header .slideshow .ghost .menu-wraper ul li a {
+          color: #429926;
+          padding: 0 15px;
+          font-size: 24px; }
+        .header .slideshow .ghost .menu-wraper ul li a:hover {
+          color: grey; }
+
+/*slideshow*/
+.mySlides {
+  display: none; }
 
 /*# sourceMappingURL=pagrindinis.css.map */

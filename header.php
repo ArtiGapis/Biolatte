@@ -20,34 +20,67 @@
     </head>
 <body>
     <div class="header">
-        <div class="ghost">
-            <div class="cartheader">
-                <ul>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Register</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#"><img src="image/cart.png"></a></li>
-                </ul>
-            </div>
-            <div class="menu-wraper">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-2">
-                            <div class=""><img src="image/logo.png"></div>
-                        </div>
-                        <div class="col-10">
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
+        <div class="slideshow">
+            <div class="w3-content w3-display-container">
+                <div class="ghost">
+                    <div class="cartheader img-responsive">
+                        <ul>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#"><img src="image/cart.png"></a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-wraper">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="logo"><img src="image/logo.png"></div>
+                                </div>
+                                <div class="col-10">
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Events</a></li>
+                                        <li><a href="#">Store Locator</a></li>
+                                        <li><a href="#">Contact us</a></li>
+                                        <li><a href="#">How to Purchase</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <a class="mySlides pirmas-slide">pirmas lapas</a>
+                <a class="mySlides antras-slide">antras lapas</a>
+                <a class="mySlides trecias-slide">trecias lapas</a>
+                <a class="mySlides ketvirtas-slide">ketvirtas lapas</a>
             </div>
-
+                                        <!----------JS-------->
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {slideIndex = 1}    
+                    if (n < 1) {slideIndex = x.length}
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                    }
+                    x[slideIndex-1].style.display = "block";  
+                }
+            </script>
+                                        <!----------JS End-------->
         </div>
     </div>
+<div>
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+        
+    
