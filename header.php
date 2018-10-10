@@ -55,6 +55,11 @@
                 <a class="mySlides antras-slide">antras lapas</a>
                 <a class="mySlides trecias-slide">trecias lapas</a>
                 <a class="mySlides ketvirtas-slide">ketvirtas lapas</a>
+                <div class="slide-buttoms text-center">
+                    <button class="left-buttom" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="right-buttom" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+
             </div>
                                         <!----------JS-------->
             <script>
@@ -75,12 +80,10 @@
                 }
             </script>
                                         <!----------JS End-------->
+
         </div>
     </div>
-<div>
-    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
+
 
         
     

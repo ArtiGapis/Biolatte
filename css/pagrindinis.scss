@@ -19,6 +19,7 @@ $zalia: #429926;
             left: 0px;
             top: 0px;
             z-index: -1;
+
         }
         .pirmas-slide {
             background: url(../image/back.png) no-repeat;
@@ -85,9 +86,23 @@ $zalia: #429926;
             }
         }
     }
+    .slide-buttoms {
+
+        .left-buttom{
+            background: none;
+            margin-right:45%;
+            margin-top: 100px;
+        }
+        .right-buttom{
+            background: none;
+            margin-left:45%;
+
+        }
+    }
 }
                                                 /*slideshow*/
-
 .mySlides {display:none;}
-
-
+@media only screen and (max-width: 800px) {
+    .header .slideshow .ghost .menu-wraper {
+        padding:0 0 0 0;}
+}

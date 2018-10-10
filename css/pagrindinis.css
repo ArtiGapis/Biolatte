@@ -61,9 +61,20 @@ body {
           font-size: 24px; }
         .header .slideshow .ghost .menu-wraper ul li a:hover {
           color: grey; }
+.header .slide-buttoms .left-buttom {
+  background: none;
+  margin-right: 45%;
+  margin-top: 100px; }
+.header .slide-buttoms .right-buttom {
+  background: none;
+  margin-left: 45%; }
 
 /*slideshow*/
 .mySlides {
   display: none; }
+
+@media only screen and (max-width: 800px) {
+  .header .slideshow .ghost .menu-wraper {
+    padding: 0 0 0 0; } }
 
 /*# sourceMappingURL=pagrindinis.css.map */
