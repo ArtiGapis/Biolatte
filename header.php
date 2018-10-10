@@ -33,7 +33,7 @@
                     </div>
                     <div class="menu-wraper">
                         <div class="container">
-                            <div class="row">
+                            <div class="row skirimas">
                                 <div class="col-2">
                                     <div class="logo"><img src="image/logo.png"></div>
                                 </div>

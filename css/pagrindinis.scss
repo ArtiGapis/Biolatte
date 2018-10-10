@@ -15,9 +15,9 @@ $zalia: #429926;
             background-size: 100%;
             position: absolute;
             width: 100%;
-            height: 500px;
-            left: 0px;
-            top: 0px;
+            height: 600px;
+            left: 0;
+            top: 0;
             z-index: -1;
 
         }
@@ -106,3 +106,12 @@ $zalia: #429926;
     .header .slideshow .ghost .menu-wraper {
         padding:0 0 0 0;}
 }
+@media only screen and (max-width: 700px) {
+  .skirimas {
+    display: grid;}
+    .header .slide-buttoms .left-buttom, .header .slide-buttoms .right-buttom {
+          margin-top:0;
+      }
+  }
+
+
