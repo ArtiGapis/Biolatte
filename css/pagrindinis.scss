@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1400px) {
     .container {
-        max-width: 1280px;
+        max-width: 1310px;
     }
 }
 body {
@@ -11,6 +11,23 @@ $zalia: #429926;
                                                 /*header*/
 .header {
     .slideshow {
+        .banner-line{
+            width: 100%;
+            background: url("../image/banner.png");
+            background-size: 100% 100%;
+            padding: 2%;
+            margin-top: 40%;
+        }
+        .left-buttom{
+            background: none;
+            float: left;
+            margin-top: -15%;
+        }
+        .right-buttom{
+            background: none;
+            float: right;
+            margin-top: -15%;
+        }
         .mySlides {
             background-size: 100%;
             position: absolute;
@@ -19,7 +36,6 @@ $zalia: #429926;
             left: 0;
             top: 0;
             z-index: -1;
-
         }
         .pirmas-slide {
             background: url(../image/back.png) no-repeat;
@@ -37,69 +53,56 @@ $zalia: #429926;
             background: url(../image/back4.png) no-repeat;
             background-size: 100%;
         }
-        .ghost {
-            background: rgba(255, 255, 255, 0.719);
-            background-size: 100% 100%;
-            padding:0 0 15px 0;
-            .cartheader {
-                background: url("../image/topjuosta.png") no-repeat;
-                background-size: 100% 100%;
-                width: 80%;
-                display: inline-block;
-                ul {
-                    text-align: right;
-                    margin-bottom:10px;
-                    li  {
-                        display: inline-block;
-                        padding:5px;
-                        a {
-                            color: $zalia;
-                            font-size: 16px;
-                        }
-                        a:hover {
-                            color:grey;
-                        }
-                        img {
-                            padding:5px 20px 5px 20px;
-                            border-left:1px solid #a3ae9b;
-                        }
-                    }
-                }
-            }
-        
-            .menu-wraper {
-                padding:50px 0 0 0;
-                ul {
-                    float: right;
-                    li {
-                        display:inline-block;
-                        a {
-                            color: $zalia;
-                            padding: 0 15px;
-                            font-size:24px;
-                        }
-                        a:hover {
-                            color:grey;
-                        }
-                    }
-                }
-            }
-        }
     }
-    .slide-buttoms {
-
-        .left-buttom{
-            background: none;
-            margin-right:45%;
-            margin-top: 100px;
+    .ghost {
+        background: rgba(255, 255, 255, 0.719);
+        background-size: 100% 100%;
+        padding:0 0 15px 0;
+        .cartheader {
+            background: url("../image/topjuosta.png") no-repeat;
+            background-size: 100% 100%;
+            width: 80%;
+            display: inline-block;
+            ul {
+                text-align: right;
+                margin-bottom:10px;
+                li  {
+                    display: inline-block;
+                    padding:5px;
+                    a {
+                        color: $zalia;
+                        font-size: 16px;
+                    }
+                    a:hover {
+                        color:grey;
+                    }
+                    img {
+                        padding:5px 20px 5px 20px;
+                        border-left:1px solid #a3ae9b;
+                    }
+                }
+            }
         }
-        .right-buttom{
-            background: none;
-            margin-left:45%;
-
+        .menu-wraper {
+            padding:50px 0 0 0;
+            ul {
+                float: right;
+                li {
+                    display:inline-block;
+                    a {
+                        color: $zalia;
+                        padding: 0 15px;
+                        font-size:24px;
+                    }
+                    a:hover {
+                        color:grey;
+                    }
+                }
+            }
         }
     }
 }
+
                                                 /*slideshow*/
 .mySlides {display:none;}
 @media only screen and (max-width: 800px) {

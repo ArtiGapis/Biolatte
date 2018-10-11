@@ -1,11 +1,25 @@
 @media only screen and (max-width: 1400px) {
   .container {
-    max-width: 1280px; } }
+    max-width: 1310px; } }
 body {
   font-family: 'Times New Roman', Times, serif; }
 
 /*sass*/
 /*header*/
+.header .slideshow .banner-line {
+  width: 100%;
+  background: url("../image/banner.png");
+  background-size: 100% 100%;
+  padding: 2%;
+  margin-top: 40%; }
+.header .slideshow .left-buttom {
+  background: none;
+  float: left;
+  margin-top: -15%; }
+.header .slideshow .right-buttom {
+  background: none;
+  float: right;
+  margin-top: -15%; }
 .header .slideshow .mySlides {
   background-size: 100%;
   position: absolute;
@@ -26,48 +40,41 @@ body {
 .header .slideshow .ketvirtas-slide {
   background: url(../image/back4.png) no-repeat;
   background-size: 100%; }
-.header .slideshow .ghost {
+.header .ghost {
   background: rgba(255, 255, 255, 0.719);
   background-size: 100% 100%;
   padding: 0 0 15px 0; }
-  .header .slideshow .ghost .cartheader {
+  .header .ghost .cartheader {
     background: url("../image/topjuosta.png") no-repeat;
     background-size: 100% 100%;
     width: 80%;
     display: inline-block; }
-    .header .slideshow .ghost .cartheader ul {
+    .header .ghost .cartheader ul {
       text-align: right;
       margin-bottom: 10px; }
-      .header .slideshow .ghost .cartheader ul li {
+      .header .ghost .cartheader ul li {
         display: inline-block;
         padding: 5px; }
-        .header .slideshow .ghost .cartheader ul li a {
+        .header .ghost .cartheader ul li a {
           color: #429926;
           font-size: 16px; }
-        .header .slideshow .ghost .cartheader ul li a:hover {
+        .header .ghost .cartheader ul li a:hover {
           color: grey; }
-        .header .slideshow .ghost .cartheader ul li img {
+        .header .ghost .cartheader ul li img {
           padding: 5px 20px 5px 20px;
           border-left: 1px solid #a3ae9b; }
-  .header .slideshow .ghost .menu-wraper {
+  .header .ghost .menu-wraper {
     padding: 50px 0 0 0; }
-    .header .slideshow .ghost .menu-wraper ul {
+    .header .ghost .menu-wraper ul {
       float: right; }
-      .header .slideshow .ghost .menu-wraper ul li {
+      .header .ghost .menu-wraper ul li {
         display: inline-block; }
-        .header .slideshow .ghost .menu-wraper ul li a {
+        .header .ghost .menu-wraper ul li a {
           color: #429926;
           padding: 0 15px;
           font-size: 24px; }
-        .header .slideshow .ghost .menu-wraper ul li a:hover {
+        .header .ghost .menu-wraper ul li a:hover {
           color: grey; }
-.header .slide-buttoms .left-buttom {
-  background: none;
-  margin-right: 45%;
-  margin-top: 100px; }
-.header .slide-buttoms .right-buttom {
-  background: none;
-  margin-left: 45%; }
 
 /*slideshow*/
 .mySlides {
