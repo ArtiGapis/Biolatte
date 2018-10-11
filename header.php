@@ -50,13 +50,12 @@
             </div>
         </div>
         <div class="slideshow">
-            <button class="left-buttom" onclick="plusDivs(-1)">&#10094;</button>
-
-            <div class="w3-content w3-display-container">
+            <div class="slider2">
                 <a class="mySlides pirmas-slide"></a>
                 <a class="mySlides antras-slide"></a>
                 <a class="mySlides trecias-slide"></a>
                 <a class="mySlides ketvirtas-slide"></a>
+                <button class="left-buttom" onclick="plusDivs(-1)">&#10094;</button>
                 <button class="right-buttom" onclick="plusDivs(1)">&#10095;</button>
                 <div class="banner-line">
                     <div class="container">
@@ -68,7 +67,6 @@
                     </div>
                 </div>
             </div>
-            <div class="slide-buttoms text-center"></div>
         </div>
     </div>
     

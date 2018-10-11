@@ -15,20 +15,19 @@ $zalia: #429926;
             width: 100%;
             background: url("../image/banner.png");
             background-size: 100% 100%;
-            padding: 2%;
-            margin-top: 40%;
         }
         .left-buttom{
             background: none;
             float: left;
-            margin-top: -15%;
+            margin-top: 5%;
         }
         .right-buttom{
             background: none;
             float: right;
-            margin-top: -15%;
+            margin-top: 5%;
         }
         .mySlides {
+            display:none;
             background-size: 100%;
             position: absolute;
             width: 100%;
@@ -39,19 +38,19 @@ $zalia: #429926;
         }
         .pirmas-slide {
             background: url(../image/back.png) no-repeat;
-            background-size: 100%;
+            background-size: 100% 100%;
         }
         .antras-slide {
             background: url(../image/back2.png) no-repeat;
-            background-size: 100%;
+            background-size: 100% 100%;
         }
         .trecias-slide {
             background: url(../image/back3.png) no-repeat;
-            background-size: 100%;
+            background-size: 100% 100%;
         }
         .ketvirtas-slide {
             background: url(../image/back4.png) no-repeat;
-            background-size: 100%;
+            background-size: 100% 100%;
         }
     }
     .ghost {
@@ -103,17 +102,20 @@ $zalia: #429926;
     }
 }
 
-.mySlides {display:none;}
 @media only screen and (max-width: 800px) {
-    .header .slideshow .ghost .menu-wraper {
+    .header .ghost .menu-wraper {
         padding:0 0 0 0;}
+    .header .slideshow .mySlides{
+        height: 500px;
+    }
+
 }
+
 @media only screen and (max-width: 700px) {
-  .skirimas {
-    display: grid;}
-    .header .slide-buttoms .left-buttom, .header .slide-buttoms .right-buttom {
-          margin-top:0;
-      }
-  }
-
-
+    .skirimas{
+        display: grid;
+    }
+    .header .slideshow .mySlides{
+        height: 400px;
+    }
+}
