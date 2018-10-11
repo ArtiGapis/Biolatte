@@ -11,11 +11,6 @@ $zalia: #429926;
                                                 /*header*/
 .header {
     .slideshow {
-        .banner-line{
-            width: 100%;
-            background: url("../image/banner.png");
-            background-size: 100% 100%;
-        }
         .left-buttom{
             background: none;
             float: left;
@@ -101,16 +96,13 @@ $zalia: #429926;
         }
     }
 }
-
 @media only screen and (max-width: 800px) {
     .header .ghost .menu-wraper {
         padding:0 0 0 0;}
     .header .slideshow .mySlides{
         height: 500px;
     }
-
 }
-
 @media only screen and (max-width: 700px) {
     .skirimas{
         display: grid;

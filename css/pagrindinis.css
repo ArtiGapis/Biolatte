@@ -6,10 +6,6 @@ body {
 
 /*sass*/
 /*header*/
-.header .slideshow .banner-line {
-  width: 100%;
-  background: url("../image/banner.png");
-  background-size: 100% 100%; }
 .header .slideshow .left-buttom {
   background: none;
   float: left;
