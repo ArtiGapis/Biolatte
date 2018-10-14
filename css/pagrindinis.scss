@@ -11,6 +11,7 @@ $zalia: #429926;
                                                 /*header*/
 .header {
     .slideshow {
+        margin-bottom: 450px;
         .left-buttom{
             background: none;
             float: left;
@@ -96,18 +97,87 @@ $zalia: #429926;
         }
     }
 }
+.pagrindas {
+    .pirma-pakopa {
+        .lizdas {
+            width: 250px;
+            display: inline-block;
+            margin: 1%;
+            img {
+                height: 200px;
+            }
+            h4 {
+                border-top: 1px solid black;
+                font-size: 17px;
+                font-weight: bold;
+                color: $zalia;
+                margin:5px 0 5px 0;
+                padding-top: 5px;
+                text-transform: uppercase;
+
+            }
+            h5 {
+                color:#8c0202;
+                font-size: 24px;
+                font-weight: bold;
+                text-transform: uppercase;
+
+            }
+            h6 {
+                margin: 0;
+                text-transform: uppercase;
+
+            }
+            .clikas {
+                background-color: $zalia;
+                color: white;
+                font-weight: bold;
+                padding:10px 20px 10px 20px;
+                line-height: 4;
+                text-transform: uppercase;
+                font-size: 10px;
+
+            }
+            .clikas:hover {
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+    .antra-pakopa {
+        background: #c3e25a;
+        background-size: 100% 100%;
+        padding:70px 0 70px 0;
+        .mini-lizdas {
+            border: 2px solid white;
+            padding: 20px;
+            display: inline-block;
+            margin: 10px;
+            h3 {
+                text-transform: uppercase;
+            }
+
+        }
+    }
+}
 @media only screen and (max-width: 800px) {
     .header .ghost .menu-wraper {
         padding:0 0 0 0;}
-    .header .slideshow .mySlides{
-        height: 500px;
+    .header .slideshow {
+        margin-bottom: 360px;
+        .mySlides{
+            height: 500px;
+        }
     }
 }
 @media only screen and (max-width: 700px) {
     .skirimas{
         display: grid;
     }
-    .header .slideshow .mySlides{
-        height: 400px;
+    .header .slideshow {
+        margin-bottom: 200px;
+        .mySlides{
+            height: 400px;
+        }
     }
 }

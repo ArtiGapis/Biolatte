@@ -6,35 +6,37 @@ body {
 
 /*sass*/
 /*header*/
-.header .slideshow .left-buttom {
-  background: none;
-  float: left;
-  margin-top: 5%; }
-.header .slideshow .right-buttom {
-  background: none;
-  float: right;
-  margin-top: 5%; }
-.header .slideshow .mySlides {
-  display: none;
-  background-size: 100%;
-  position: absolute;
-  width: 100%;
-  height: 600px;
-  left: 0;
-  top: 0;
-  z-index: -1; }
-.header .slideshow .pirmas-slide {
-  background: url(../image/back.png) no-repeat;
-  background-size: 100% 100%; }
-.header .slideshow .antras-slide {
-  background: url(../image/back2.png) no-repeat;
-  background-size: 100% 100%; }
-.header .slideshow .trecias-slide {
-  background: url(../image/back3.png) no-repeat;
-  background-size: 100% 100%; }
-.header .slideshow .ketvirtas-slide {
-  background: url(../image/back4.png) no-repeat;
-  background-size: 100% 100%; }
+.header .slideshow {
+  margin-bottom: 450px; }
+  .header .slideshow .left-buttom {
+    background: none;
+    float: left;
+    margin-top: 5%; }
+  .header .slideshow .right-buttom {
+    background: none;
+    float: right;
+    margin-top: 5%; }
+  .header .slideshow .mySlides {
+    display: none;
+    background-size: 100%;
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    left: 0;
+    top: 0;
+    z-index: -1; }
+  .header .slideshow .pirmas-slide {
+    background: url(../image/back.png) no-repeat;
+    background-size: 100% 100%; }
+  .header .slideshow .antras-slide {
+    background: url(../image/back2.png) no-repeat;
+    background-size: 100% 100%; }
+  .header .slideshow .trecias-slide {
+    background: url(../image/back3.png) no-repeat;
+    background-size: 100% 100%; }
+  .header .slideshow .ketvirtas-slide {
+    background: url(../image/back4.png) no-repeat;
+    background-size: 100% 100%; }
 .header .ghost {
   background: rgba(255, 255, 255, 0.719);
   background-size: 100% 100%;
@@ -71,17 +73,66 @@ body {
         .header .ghost .menu-wraper ul li a:hover {
           color: grey; }
 
+.pagrindas .pirma-pakopa .lizdas {
+  width: 250px;
+  display: inline-block;
+  margin: 1%; }
+  .pagrindas .pirma-pakopa .lizdas img {
+    height: 200px; }
+  .pagrindas .pirma-pakopa .lizdas h4 {
+    border-top: 1px solid black;
+    font-size: 17px;
+    font-weight: bold;
+    color: #429926;
+    margin: 5px 0 5px 0;
+    padding-top: 5px;
+    text-transform: uppercase; }
+  .pagrindas .pirma-pakopa .lizdas h5 {
+    color: #8c0202;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .pagrindas .pirma-pakopa .lizdas h6 {
+    margin: 0;
+    text-transform: uppercase; }
+  .pagrindas .pirma-pakopa .lizdas .clikas {
+    background-color: #429926;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    line-height: 4;
+    text-transform: uppercase;
+    font-size: 10px; }
+  .pagrindas .pirma-pakopa .lizdas .clikas:hover {
+    color: black;
+    text-decoration: none; }
+.pagrindas .antra-pakopa {
+  background: #c3e25a;
+  background-size: 100% 100%;
+  padding: 70px 0 70px 0; }
+  .pagrindas .antra-pakopa .mini-lizdas {
+    border: 2px solid white;
+    padding: 20px;
+    display: inline-block;
+    margin: 10px; }
+    .pagrindas .antra-pakopa .mini-lizdas h3 {
+      text-transform: uppercase; }
+
 @media only screen and (max-width: 800px) {
   .header .ghost .menu-wraper {
     padding: 0 0 0 0; }
 
-  .header .slideshow .mySlides {
-    height: 500px; } }
+  .header .slideshow {
+    margin-bottom: 360px; }
+    .header .slideshow .mySlides {
+      height: 500px; } }
 @media only screen and (max-width: 700px) {
   .skirimas {
     display: grid; }
 
-  .header .slideshow .mySlides {
-    height: 400px; } }
+  .header .slideshow {
+    margin-bottom: 200px; }
+    .header .slideshow .mySlides {
+      height: 400px; } }
 
 /*# sourceMappingURL=pagrindinis.css.map */
