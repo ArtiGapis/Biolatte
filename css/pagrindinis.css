@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1300px) {
   .container {
     max-width: 1310px; } }
 body {
@@ -112,11 +112,31 @@ body {
   padding: 70px 0 70px 0; }
   .pagrindas .antra-pakopa .mini-lizdas {
     border: 2px solid white;
-    padding: 20px;
+    width: 270px;
+    height: 210px;
     display: inline-block;
-    margin: 10px; }
+    margin-bottom: 5px; }
     .pagrindas .antra-pakopa .mini-lizdas h3 {
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      color: #429926;
+      font-weight: bold;
+      padding: 5px; }
+    .pagrindas .antra-pakopa .mini-lizdas img {
+      border-radius: 100%;
+      margin: 5px; }
+  .pagrindas .antra-pakopa .mini-lizdas:hover {
+    text-decoration: none; }
+    .pagrindas .antra-pakopa .mini-lizdas:hover h3 {
+      color: grey; }
+.pagrindas .trecia-pakopa {
+  background: url("../image/obuolys.jpg");
+  background-size: 100% 100%;
+  padding: 100px 0 100px 0; }
+  .pagrindas .trecia-pakopa h1 {
+    color: #429926;
+    font-weight: bold; }
+  .pagrindas .trecia-pakopa p {
+    color: #429926; }
 
 @media only screen and (max-width: 800px) {
   .header .ghost .menu-wraper {
@@ -125,7 +145,10 @@ body {
   .header .slideshow {
     margin-bottom: 360px; }
     .header .slideshow .mySlides {
-      height: 500px; } }
+      height: 500px; }
+
+  .pagrindas .trecia-pakopa {
+    padding: 5px 0 5px 0; } }
 @media only screen and (max-width: 700px) {
   .skirimas {
     display: grid; }

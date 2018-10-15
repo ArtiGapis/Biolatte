@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1300px) {
     .container {
         max-width: 1310px;
     }
@@ -150,14 +150,39 @@ $zalia: #429926;
         padding:70px 0 70px 0;
         .mini-lizdas {
             border: 2px solid white;
-            padding: 20px;
-            display: inline-block;
-            margin: 10px;
+          width: 270px;
+          height: 210px;
+          display: inline-block;
+          margin-bottom: 5px;
             h3 {
                 text-transform: uppercase;
+              color: $zalia;
+              font-weight: bold;
+              padding:5px;
             }
-
+            img {
+              border-radius: 100%;
+              margin:5px;
+            }
         }
+        .mini-lizdas:hover {
+          text-decoration: none;
+          h3 {
+            color: grey;
+          }
+        }
+    }
+    .trecia-pakopa {
+      background: url("../image/obuolys.jpg");
+      background-size: 100% 100%;
+      padding: 100px 0 100px 0;
+      h1 {
+        color:$zalia;
+        font-weight: bold;
+      }
+      p {
+        color: $zalia;
+      }
     }
 }
 @media only screen and (max-width: 800px) {
@@ -168,6 +193,9 @@ $zalia: #429926;
         .mySlides{
             height: 500px;
         }
+    }
+    .pagrindas .trecia-pakopa {
+      padding: 5px 0 5px 0;
     }
 }
 @media only screen and (max-width: 700px) {

@@ -72,18 +72,57 @@
         <div class="antra-pakopa">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <a href="#" class="mini-lizdas">
-                            <img src="image/users0.jpg">
+                    <div class="col-12 text-center">
+                        <a href="#" class="mini-lizdas text-center">
+                            <img src="image/users0.jpg" width="150px" height="150px">
                             <h3>probiotikumid</h3>
                         </a>
-                        <a class="mini-lizdas"></a>
+                        <a href="#" class="mini-lizdas text-center">
+                            <img src="image/users1.jpg" width="150px" height="150px">
+                            <h3>probiotikumid</h3>
+                        </a>
+                        <a href="#" class="mini-lizdas text-center">
+                            <img src="image/users2.jpg" width="150px" height="150px">
+                            <h3>probiotikumid</h3>
+                        </a>
+                        <a href="#" class="mini-lizdas text-center">
+                            <img src="image/users3.jpg" width="150px" height="150px">
+                            <h3>probiotikumid</h3>
+                        </a>
+                        <a href="#" class="mini-lizdas text-center">
+                            <img src="image/users4.jpg" width="150px" height="150px">
+                            <h3>probiotikumid</h3>
+                        </a>
+                        <a href="#" class="mini-lizdas text-center">
+                            <img src="image/users5.jpg" width="150px" height="150px">
+                            <h3>probiotikumid</h3>
+                        </a>
+                        <a href="#" class="mini-lizdas text-center">
+                            <img src="image/users6.jpg" width="150px" height="150px">
+                            <h3>probiotikumid</h3>
+                        </a>
+                        <a href="#" class="mini-lizdas text-center">
+                            <img src="image/users7.jpg" width="150px" height="150px">
+                            <h3>probiotikumid</h3>
+                        </a>
 
                     </div>
                 </div>
             </div>
         </div>
-        <div class="trecia-pakopa"></div>
+        <div class="trecia-pakopa">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Biolatte <br> probiootikumid <br> ja ensüümit</h1>
+                        <p>Ela tervislikult ja õnnelikuld</p>
+                        <a href="#" class="shadow-click">
+                            <img src="image/shadows-tab.png" width="300px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="ketvirta-pakopa"></div>
         <div class="penkta-pakopa"></div>
     </div>
