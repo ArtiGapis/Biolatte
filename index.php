@@ -123,7 +123,28 @@
                 </div>
             </div>
         </div>
-        <div class="ketvirta-pakopa"></div>
+        <div class="ketvirta-pakopa">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="transport text-center">
+                            <img src="image/buda.png">
+                            <h1>soodinetransport</h1>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="kareivis text-center">
+                            <img src="image/kareiviskas.png">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="krepselis text-center">
+                            <img src="image/krepselis.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="penkta-pakopa"></div>
     </div>
     <?php include 'footer.php';?>
