@@ -153,12 +153,13 @@ body {
     border-right: 1px solid black; }
   .pagrindas .ketvirta-pakopa img {
     height: 77px; }
-.pagrindas .penkta-pakopa h1 {
+
+.penkta-pakopa h1 {
   color: #429926;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 32px; }
-.pagrindas .penkta-pakopa p {
+.penkta-pakopa p {
   color: #429926; }
 
 .footeris {
@@ -198,7 +199,7 @@ body {
   .pagrindas .trecia-pakopa {
     padding: 5px 0 5px 0; } }
 @media only screen and (max-width: 700px) {
-  .skirimas {
+  .skirimas .penkta-pakopa {
     display: grid; }
 
   .header .slideshow {

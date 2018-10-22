@@ -207,6 +207,7 @@ $zalia: #429926;
           height: 77px;
         }
     }
+  }
     .penkta-pakopa{
       h1 {
         color: $zalia;
@@ -218,7 +219,6 @@ $zalia: #429926;
       color: $zalia;
       }
     }
-}
 .footeris {
   margin-top: 20px;
   background-color: #222222;
@@ -264,7 +264,7 @@ $zalia: #429926;
     }
 }
 @media only screen and (max-width: 700px) {
-    .skirimas{
+    .skirimas .penkta-pakopa{
         display: grid;
     }
     .header .slideshow {
