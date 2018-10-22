@@ -10,46 +10,12 @@ body {
 $zalia: #429926;
                                                 /*header*/
 .header {
-    .slideshow {
-        margin-bottom: 450px;
-        .left-buttom{
-            background: none;
-            float: left;
-            margin-top: 5%;
-        }
-        .right-buttom{
-            background: none;
-            float: right;
-            margin-top: 5%;
-        }
-        .mySlides {
-            display:none;
-            background-size: 100%;
-            position: absolute;
-            width: 100%;
-            height: 600px;
-            left: 0;
-            top: 0;
-            z-index: -1;
-        }
-        .pirmas-slide {
-            background: url(../image/back.png) no-repeat;
-            background-size: 100% 100%;
-        }
-        .antras-slide {
-            background: url(../image/back2.png) no-repeat;
-            background-size: 100% 100%;
-        }
-        .trecias-slide {
-            background: url(../image/back3.png) no-repeat;
-            background-size: 100% 100%;
-        }
-        .ketvirtas-slide {
-            background: url(../image/back4.png) no-repeat;
-            background-size: 100% 100%;
-        }
     }
     .ghost {
+      position: fixed;
+      width:100%;
+      height:170px;
+      z-index: 10;
         background: rgba(255, 255, 255, 0.719);
         background-size: 100% 100%;
         padding:0 0 15px 0;
@@ -96,8 +62,41 @@ $zalia: #429926;
             }
         }
     }
-}
+
 .pagrindas {
+  .slideshow {
+    .left-buttom {
+      background: none;
+      float: left;
+      margin-top: -20%;
+    }
+    .right-buttom {
+      background: none;
+      float: right;
+      margin-top: -20%;
+    }
+    .mySlides {
+      display: none;
+      width: 100%;
+      height: 600px;
+    }
+    .pirmas-slide {
+      background: url(../image/back.png) no-repeat;
+      background-size: 100% 100%;
+    }
+    .antras-slide {
+      background: url(../image/back2.png) no-repeat;
+      background-size: 100% 100%;
+    }
+    .trecias-slide {
+      background: url(../image/back3.png) no-repeat;
+      background-size: 100% 100%;
+    }
+    .ketvirtas-slide {
+      background: url(../image/back4.png) no-repeat;
+      background-size: 100% 100%;
+    }
+  }
     .pirma-pakopa {
         .lizdas {
             width: 250px;
@@ -216,7 +215,7 @@ $zalia: #429926;
         font-size: 32px;
       }
       p{
-      color: w;
+      color: $zalia;
       }
     }
 }

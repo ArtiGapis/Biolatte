@@ -44,24 +44,5 @@
                 </div>
             </div>
         </div>
-        <div class="slideshow">
-            <div class="slider2">
-                <a class="mySlides pirmas-slide"></a>
-                <a class="mySlides antras-slide"></a>
-                <a class="mySlides trecias-slide"></a>
-                <a class="mySlides ketvirtas-slide"></a>
-                <button class="left-buttom" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="right-buttom" onclick="plusDivs(1)">&#10095;</button>
-                <div class="banner-line">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-4"></div>
-                            <div class="col-4"></div>
-                            <div class="col-4"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
     
