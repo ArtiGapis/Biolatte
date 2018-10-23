@@ -143,16 +143,13 @@ body {
   border-bottom: 1px solid black;
   padding-top: 90px;
   margin-bottom: 60px; }
-  .pagrindas .ketvirta-pakopa h1 {
-    color: #429926;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 32px; }
-  .pagrindas .ketvirta-pakopa .kareivis {
-    border-left: 1px solid black;
-    border-right: 1px solid black; }
-  .pagrindas .ketvirta-pakopa img {
-    height: 77px; }
+  .pagrindas .ketvirta-pakopa .ikona {
+    display: inline-block; }
+    .pagrindas .ketvirta-pakopa .ikona h1, .pagrindas .ketvirta-pakopa .ikona p {
+      color: black; }
+    .pagrindas .ketvirta-pakopa .ikona .a:hover {
+      text-decoration: none;
+      color: grey; }
 
 .penkta-pakopa h1 {
   color: #429926;
@@ -199,9 +196,6 @@ body {
   .pagrindas .trecia-pakopa {
     padding: 5px 0 5px 0; } }
 @media only screen and (max-width: 700px) {
-  .skirimas .penkta-pakopa {
-    display: grid; }
-
   .header .slideshow {
     margin-bottom: 200px; }
     .header .slideshow .mySlides {
