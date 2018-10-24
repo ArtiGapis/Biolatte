@@ -146,21 +146,21 @@
         <div class="ketvirta-pakopa">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 text-center">
                         <div class="icon-wraper">
-                            <a class="ikona" href="#">
-                               <img src="image/buda.png"><br>
-                                sfgthbvewsdgh<br>
-                                dasdvcdsvscsdv
-                            </a>
-                            <a class="ikona" href="#">
-                                <img src="image/kareiviskas.png">
-                                <h1>sfgthbvewsdgh</h1>
+                            <a class="ikona-buda" href="#">
+                               <img src="image/buda.png">
+                                <h3>sfgthbvewsdgh</h3>
                                 <p>dasdvcdsvscsdv</p>
                             </a>
-                            <a class="ikona" href="#">
+                            <a class="ikona-kareivis" href="#">
+                                <img src="image/kareiviskas.png">
+                                <h3>sfgthbvewsdgh</h3>
+                                <p>dasdvcdsvscsdv</p>
+                            </a>
+                            <a class="ikona-krepselis" href="#">
                                 <img src="image/krepselis.png">
-                                <h1>sfgthbvewsdgh</h1>
+                                <h3>sfgthbvewsdgh</h3>
                                 <p>dasdvcdsvscsdv</p>
                             </a>
                         </div>
@@ -180,15 +180,7 @@
                         </div>
                         <div class="fb">
                             <h1>Biolatte facebookis</h1>
-                            <div id="fb-root"></div>
-                            <script>(function(d, s, id) {
-                                    var js, fjs = d.getElementsByTagName(s)[0];
-                                    if (d.getElementById(id)) return;
-                                    js = d.createElement(s); js.id = id;
-                                    js.src = 'https://connect.facebook.net/lt_LT/sdk.js#xfbml=1&version=v3.1';
-                                    fjs.parentNode.insertBefore(js, fjs);
-                                }(document, 'script', 'facebook-jssdk'));</script>
-                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                         </div>
 
                     </div>

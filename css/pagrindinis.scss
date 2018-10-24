@@ -192,8 +192,22 @@ $zalia: #429926;
         border-bottom :1px solid black;
         padding-top: 90px;
       margin-bottom: 60px;
-      .ikona {
-        display: inline-block;
+        .ikona-buda  {
+          float: left;
+          display: inline-block;
+          width: 200px;
+        }
+        .ikona-kareivis{
+          display: inline-block;
+          width: 200px;
+
+        }
+        .ikona-krepselis{
+          display: inline-block;
+          width: 200px;
+
+          float: right;
+        }
         h1, p {
           color:black;
         }
@@ -201,18 +215,26 @@ $zalia: #429926;
           text-decoration: none;
           color: grey;
         }
-      }
+
     }
   }
     .penkta-pakopa{
-      h1 {
-        color: $zalia;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-size: 32px;
+      .tekstas {
+        width: 45%;
+        display: inline-block;
+        h1 {
+          color: $zalia;
+          font-weight: bold;
+          text-transform: uppercase;
+          font-size: 32px;
+        }
+        p {
+          color: $zalia;
+        }
       }
-      p{
-      color: $zalia;
+      .fb {
+        display: inline-block;
+
       }
     }
 .footeris {
@@ -249,21 +271,23 @@ $zalia: #429926;
 @media only screen and (max-width: 800px) {
     .header .ghost .menu-wraper {
         padding:0 0 0 0;}
-    .header .slideshow {
-        margin-bottom: 360px;
-        .mySlides{
-            height: 500px;
+    .pagrindas {
+      .slideshow {
+        .mySlides {
+          height: 400px;
         }
-    }
-    .pagrindas .trecia-pakopa {
-      padding: 5px 0 5px 0;
+      }
+      .trecia-pakopa {
+        padding: 5px 0 5px 0;
+      }
     }
 }
-@media only screen and (max-width: 700px) {
-    .header .slideshow {
-        margin-bottom: 200px;
-        .mySlides{
-            height: 400px;
-        }
+@media only screen and (max-width: 640px) {
+  .pagrindas {
+    .slideshow {
+      .mySlides {
+        height: 250px;
+      }
     }
+  }
 }

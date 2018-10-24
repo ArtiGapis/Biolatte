@@ -143,21 +143,35 @@ body {
   border-bottom: 1px solid black;
   padding-top: 90px;
   margin-bottom: 60px; }
-  .pagrindas .ketvirta-pakopa .ikona {
-    display: inline-block; }
-    .pagrindas .ketvirta-pakopa .ikona h1, .pagrindas .ketvirta-pakopa .ikona p {
-      color: black; }
-    .pagrindas .ketvirta-pakopa .ikona .a:hover {
-      text-decoration: none;
-      color: grey; }
+  .pagrindas .ketvirta-pakopa .ikona-buda {
+    float: left;
+    display: inline-block;
+    width: 200px; }
+  .pagrindas .ketvirta-pakopa .ikona-kareivis {
+    display: inline-block;
+    width: 200px; }
+  .pagrindas .ketvirta-pakopa .ikona-krepselis {
+    display: inline-block;
+    width: 200px;
+    float: right; }
+  .pagrindas .ketvirta-pakopa h1, .pagrindas .ketvirta-pakopa p {
+    color: black; }
+  .pagrindas .ketvirta-pakopa .a:hover {
+    text-decoration: none;
+    color: grey; }
 
-.penkta-pakopa h1 {
-  color: #429926;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 32px; }
-.penkta-pakopa p {
-  color: #429926; }
+.penkta-pakopa .tekstas {
+  width: 45%;
+  display: inline-block; }
+  .penkta-pakopa .tekstas h1 {
+    color: #429926;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px; }
+  .penkta-pakopa .tekstas p {
+    color: #429926; }
+.penkta-pakopa .fb {
+  display: inline-block; }
 
 .footeris {
   margin-top: 20px;
@@ -188,17 +202,12 @@ body {
   .header .ghost .menu-wraper {
     padding: 0 0 0 0; }
 
-  .header .slideshow {
-    margin-bottom: 360px; }
-    .header .slideshow .mySlides {
-      height: 500px; }
-
+  .pagrindas .slideshow .mySlides {
+    height: 400px; }
   .pagrindas .trecia-pakopa {
     padding: 5px 0 5px 0; } }
-@media only screen and (max-width: 700px) {
-  .header .slideshow {
-    margin-bottom: 200px; }
-    .header .slideshow .mySlides {
-      height: 400px; } }
+@media only screen and (max-width: 640px) {
+  .pagrindas .slideshow .mySlides {
+    height: 250px; } }
 
 /*# sourceMappingURL=pagrindinis.css.map */
