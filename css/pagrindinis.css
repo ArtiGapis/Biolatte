@@ -46,37 +46,36 @@ body {
         .ghost .menu-wraper ul li a:hover {
           color: grey; }
 
-.pagrindas .slideshow .left-buttom {
-  background: none;
-  float: left;
-  margin-top: -20%; }
-.pagrindas .slideshow .right-buttom {
-  background: none;
-  float: right;
-  margin-top: -20%; }
-.pagrindas .slideshow .mySlides {
-  display: none;
+button.owl-next {
+  position: absolute;
+  left: 95%;
+  width: 30px;
+  height: 50px; }
+
+button.owl-prev {
+  position: absolute;
+  right: 95%;
+  width: 30px;
+  height: 50px; }
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+  background-color: rgba(255, 255, 255, 0.42); }
+
+.owl-nav {
+  position: absolute;
   width: 100%;
-  height: 600px; }
-.pagrindas .slideshow .pirmas-slide {
-  background: url(../image/back.png) no-repeat;
-  background-size: 100% 100%; }
-.pagrindas .slideshow .antras-slide {
-  background: url(../image/back2.png) no-repeat;
-  background-size: 100% 100%; }
-.pagrindas .slideshow .trecias-slide {
-  background: url(../image/back3.png) no-repeat;
-  background-size: 100% 100%; }
-.pagrindas .slideshow .ketvirtas-slide {
-  background: url(../image/back4.png) no-repeat;
-  background-size: 100% 100%; }
-.pagrindas .pirma-pakopa .lizdas {
+  height: -500px;
+  top: 300px; }
+
+.pirma-pakopa .lizdas {
   width: 250px;
   display: inline-block;
   margin: 1%; }
-  .pagrindas .pirma-pakopa .lizdas img {
+  .pirma-pakopa .lizdas img {
     height: 200px; }
-  .pagrindas .pirma-pakopa .lizdas h4 {
+  .pirma-pakopa .lizdas h4 {
     border-top: 1px solid black;
     font-size: 17px;
     font-weight: bold;
@@ -84,15 +83,15 @@ body {
     margin: 5px 0 5px 0;
     padding-top: 5px;
     text-transform: uppercase; }
-  .pagrindas .pirma-pakopa .lizdas h5 {
+  .pirma-pakopa .lizdas h5 {
     color: #8c0202;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase; }
-  .pagrindas .pirma-pakopa .lizdas h6 {
+  .pirma-pakopa .lizdas h6 {
     margin: 0;
     text-transform: uppercase; }
-  .pagrindas .pirma-pakopa .lizdas .clikas {
+  .pirma-pakopa .lizdas .clikas {
     background-color: #429926;
     color: white;
     font-weight: bold;
@@ -100,41 +99,44 @@ body {
     line-height: 4;
     text-transform: uppercase;
     font-size: 10px; }
-  .pagrindas .pirma-pakopa .lizdas .clikas:hover {
+  .pirma-pakopa .lizdas .clikas:hover {
     color: black;
     text-decoration: none; }
-.pagrindas .antra-pakopa {
+
+.antra-pakopa {
   background: #c3e25a;
   background-size: 100% 100%;
   padding: 70px 0 70px 0; }
-  .pagrindas .antra-pakopa .mini-lizdas {
+  .antra-pakopa .mini-lizdas {
     border: 2px solid white;
     width: 270px;
     height: 210px;
     display: inline-block;
     margin-bottom: 5px; }
-    .pagrindas .antra-pakopa .mini-lizdas h3 {
+    .antra-pakopa .mini-lizdas h3 {
       text-transform: uppercase;
       color: #429926;
       font-weight: bold;
       padding: 5px; }
-    .pagrindas .antra-pakopa .mini-lizdas img {
+    .antra-pakopa .mini-lizdas img {
       border-radius: 100%;
       margin: 5px; }
-  .pagrindas .antra-pakopa .mini-lizdas:hover {
+  .antra-pakopa .mini-lizdas:hover {
     text-decoration: none; }
-    .pagrindas .antra-pakopa .mini-lizdas:hover h3 {
+    .antra-pakopa .mini-lizdas:hover h3 {
       color: grey; }
-.pagrindas .trecia-pakopa {
+
+.trecia-pakopa {
   background: url("../image/obuolys.jpg");
   background-size: 100% 100%;
   padding: 100px 0 100px 0; }
-  .pagrindas .trecia-pakopa h1 {
+  .trecia-pakopa h1 {
     color: #429926;
     font-weight: bold; }
-  .pagrindas .trecia-pakopa p {
+  .trecia-pakopa p {
     color: #429926; }
-.pagrindas .ketvirta-pakopa {
+
+.ketvirta-pakopa {
   background: url("../image/ketvirto-bekas.jpg") no-repeat;
   background-size: 100% 100%;
   height: 300px;
@@ -143,20 +145,20 @@ body {
   border-bottom: 1px solid black;
   padding-top: 90px;
   margin-bottom: 60px; }
-  .pagrindas .ketvirta-pakopa .ikona-buda {
+  .ketvirta-pakopa .ikona-buda {
     float: left;
     display: inline-block;
     width: 200px; }
-  .pagrindas .ketvirta-pakopa .ikona-kareivis {
+  .ketvirta-pakopa .ikona-kareivis {
     display: inline-block;
     width: 200px; }
-  .pagrindas .ketvirta-pakopa .ikona-krepselis {
+  .ketvirta-pakopa .ikona-krepselis {
     display: inline-block;
     width: 200px;
     float: right; }
-  .pagrindas .ketvirta-pakopa h1, .pagrindas .ketvirta-pakopa p {
+  .ketvirta-pakopa h1, .ketvirta-pakopa p {
     color: black; }
-  .pagrindas .ketvirta-pakopa .a:hover {
+  .ketvirta-pakopa .a:hover {
     text-decoration: none;
     color: grey; }
 

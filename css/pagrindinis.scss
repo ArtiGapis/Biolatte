@@ -62,41 +62,31 @@ $zalia: #429926;
             }
         }
     }
+button.owl-next {
+  position: absolute;
+  left: 95%;
+  width: 30px;
+  height: 50px;
 
-.pagrindas {
-  .slideshow {
-    .left-buttom {
-      background: none;
-      float: left;
-      margin-top: -20%;
-    }
-    .right-buttom {
-      background: none;
-      float: right;
-      margin-top: -20%;
-    }
-    .mySlides {
-      display: none;
-      width: 100%;
-      height: 600px;
-    }
-    .pirmas-slide {
-      background: url(../image/back.png) no-repeat;
-      background-size: 100% 100%;
-    }
-    .antras-slide {
-      background: url(../image/back2.png) no-repeat;
-      background-size: 100% 100%;
-    }
-    .trecias-slide {
-      background: url(../image/back3.png) no-repeat;
-      background-size: 100% 100%;
-    }
-    .ketvirtas-slide {
-      background: url(../image/back4.png) no-repeat;
-      background-size: 100% 100%;
-    }
-  }
+}
+button.owl-prev {
+  position: absolute;
+  right: 95%;
+  width: 30px;
+  height: 50px;
+}
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+  background-color: rgba(255, 255, 255, 0.42);
+}
+
+.owl-nav {
+  position: absolute;
+  width: 100%;
+  height: -500px;
+  top: 300px;
+}
     .pirma-pakopa {
         .lizdas {
             width: 250px;
@@ -217,7 +207,7 @@ $zalia: #429926;
         }
 
     }
-  }
+
     .penkta-pakopa{
       .tekstas {
         width: 45%;

@@ -1,25 +1,13 @@
     <?php include 'header.php';  ?>
     <div class="pagrindas">
         <div class="slideshow">
-            <div class="slider2">
-                <a class="mySlides pirmas-slide"></a>
-                <a class="mySlides antras-slide"></a>
-                <a class="mySlides trecias-slide"></a>
-                <a class="mySlides ketvirtas-slide"></a>
-                <button class="left-buttom" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="right-buttom" onclick="plusDivs(1)">&#10095;</button>
-                <div class="banner-line">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-4"></div>
-                            <div class="col-4"></div>
-                            <div class="col-4"></div>
-                        </div>
-                    </div>
-                </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img src="image/back.png"></div>
+                <div class="item"><img src="image/back2.png"></div>
+                <div class="item"><img src="image/back3.png"></div>
+                <div class="item"><img src="image/back4.png"></div>
             </div>
         </div>
-
         <div class="pirma-pakopa">
             <div class="container">
                 <div class="row">
