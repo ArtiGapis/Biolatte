@@ -65,9 +65,8 @@ button.owl-prev {
 
 .owl-nav {
   position: absolute;
-  width: 100%;
-  height: -500px;
-  top: 300px; }
+  top: 50%;
+  width: 100%; }
 
 .pirma-pakopa .lizdas {
   width: 250px;
@@ -204,12 +203,7 @@ button.owl-prev {
   .header .ghost .menu-wraper {
     padding: 0 0 0 0; }
 
-  .pagrindas .slideshow .mySlides {
-    height: 400px; }
   .pagrindas .trecia-pakopa {
     padding: 5px 0 5px 0; } }
-@media only screen and (max-width: 640px) {
-  .pagrindas .slideshow .mySlides {
-    height: 250px; } }
 
 /*# sourceMappingURL=pagrindinis.css.map */
